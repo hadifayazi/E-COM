@@ -5,7 +5,6 @@ import ActivateAccount from "./pages/ActivateAccount";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Home from "./pages/Home";
-import Layout from "./components/Layout";
 
 function App() {
   return (
