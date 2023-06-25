@@ -56,14 +56,11 @@ const Login = () => {
           />
           <button
             type="submit"
-            className="border rounded-full p-2  w-1/2 text-white bg-custRed  "
+            className="border rounded-full p-2  w-1/2 text-white bg-custRed "
           >
             Login
           </button>
-          <div className="flex gap-2 ">
-            <input type="checkbox" name="remember-me" className="w-4" />
-            <span>Remember me</span>
-          </div>
+
           <div className="text-gray-400 mt-2 flex flex-col gap-1">
             <Link to="/forgoten-password" className="text-teal-500 text-sm ">
               Forgot my password

@@ -1,13 +1,5 @@
-import Ctaegories from "../components/Ctaegories";
-import Slider from "../components/Slider";
-
 const Home = () => {
-  return (
-    <div>
-      <Slider />
-      <Ctaegories />
-    </div>
-  );
+  return <div className="font-bold text-red-500">home</div>;
 };
 
 export default Home;
